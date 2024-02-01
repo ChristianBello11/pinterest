@@ -1,0 +1,170 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 1440px;
+    height: 400px;
+    background-color: rgb(190, 190, 190);
+}
+
+.pinterest{
+    width:220px;
+    height:250px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(218, 218, 218);
+}
+
+
+.img{
+    background-image: url(/immagini/neom-39n8YVSn0d4-unsplash.jpg);
+    width: 210px;
+    height: 240px;
+    position: absolute;
+    background-size: cover;
+    border-radius: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+
+.save{
+    width:55px;
+    height:25px;
+    background-color: rgb(226, 73, 35);
+    position: absolute;
+    border-radius: 20px;
+    right: -60px;
+    top: 10px;
+}
+
+
+.save h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: small;
+    position:absolute;
+    top:12%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.pinterest:hover .save{
+    right:10px;
+    transition: 0.5s;
+}
+
+
+.img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+.img:hover::before{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+
+.sito{
+    width:80px;
+    height:25px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: -80px;
+    bottom: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 70px;
+}
+
+
+.sito i{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    font-size: 60%;
+    left:7px;
+    top:30%;
+    color: black;
+    display: inline-block;
+}
+
+
+.pinterest:hover .sito{
+    left: 10px;
+    transition: 0.5s;
+}
+
+
+.sito h3{
+    max-width: 45px;
+    width:45px;
+    height: 10px;
+    top:-4px;
+    left: 20px;
+    position: absolute;
+    font-size:65%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.scarica{
+    width:20px;
+    height: 20px;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: -30px;
+    right:50px;
+    border-radius: 10px;
+}
+
+.scarica i{
+    font-size: 70%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.pinterest:hover .scarica{
+    bottom: 12px;
+    transition: 0.5s;
+}
+
+.trepuntini{
+    width:20px;
+    height: 20px;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: -30px;
+    right:20px;
+    border-radius: 10px;
+}
+
+.trepuntini i{
+    font-size: 70%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.pinterest:hover .trepuntini{
+    bottom: 12px;
+    transition: 0.5s;
+}
